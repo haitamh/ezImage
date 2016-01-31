@@ -13,8 +13,8 @@
 #### imgscalr: Simple Java image-scaling library
 #### hsqldb
 
-### Configurable parameters
-#### images urls lines: /resources/input.images.txt
+### Configurable parameters:
+#### images urls file: /resources/input.images.txt
 #### job batch chunk size: 5
 #### job batch threads: 4 (default of SimpleAsyncTaskExecutor)
 #### skip malformed url or download error maximum: 100
