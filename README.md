@@ -6,7 +6,7 @@
 #### The actions applied on image (processing) are:
 ##### 1.resizing
 ##### 2.grayscaling 
-###### but the application was designed to be easly extended with additional image actions (minumum code changes).
+##### *but the application was designed to be easly extended with additional image actions (minumum code changes).
 
 ### Open sources used in the project:
 #### Spring Batch Framework: lightweight framework for batch processing.
@@ -16,6 +16,7 @@
 ### Configurable parameters
 #### images urls lines: /resources/input.images.txt
 #### job batch chunk size: 5
+#### job batch threads: 4 (default of SimpleAsyncTaskExecutor)
 #### skip malformed url or download error maximum: 100
 #### output images directory: /outputImages
 
