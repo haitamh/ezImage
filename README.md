@@ -1,8 +1,7 @@
 # ezImage
 
 ### Overview
-#### This application is a Java assignment for a company which develops image recognition software.
-#### The assignment was about downloading list of images, process them, save them to disk and save records to DB.
+#### This application is about downloading list of images, process them, save them to disk and save records to DB.
 #### The actions applied on image (processing) are:
 ##### 1.resizing
 ##### 2.grayscaling 
